@@ -59,9 +59,9 @@
         <div class="card border-secondary mb-3" style="max-width: 18rem; margin: auto;">
           <img class="bd-placeholder-img card-img-top" width="100%" height="180" src="../assets/php.jpg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Image cap"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"/>
           <div class="mask">  
-          <h2>PHP 7.0~</h2>
-          <p>★★☆☆☆</p>  
-          <p>基本的な構文は理解していますが、まだ勉<br>強を始めて日が浅いので今後も勉強して理解<br>を深めたいです。基本的にはLaravelをを使用<br>してアプリケーションの開発をしています。</p>  
+          <h2 >PHP 7.0~</h2>
+          <p >★★☆☆☆</p>  
+          <p >基本的な構文は理解していますが、まだ勉<br>強を始めて日が浅いので今後も勉強して理解<br>を深めたいです。基本的にはLaravelをを使用<br>してアプリケーションの開発をしています。</p>  
           </div> 
         </div>
       </div>
@@ -70,11 +70,16 @@
 </template>
 
 <style scoped>
+
+.mask {
+  color: black;
+}
 .card.border-secondary.mb-3 {
   width: 300px;
   height: 170px;
   overflow: hidden;
   position: relative;
+  box-shadow: 4px 4px 5px grey;
 }
 
 .card.border-secondary.mb-3  .mask, .card.border-secondary.mb-3 .content {
@@ -83,12 +88,14 @@
     position: absolute;
     overflow: hidden;
     top: 0;
-    left: 0
+    left: 0;
+    
+    
 }
 .card.border-secondary.mb-3 img {
 	transition: all 0.2s ease-in; 
   display: block;
-  position: relative
+  position: relative;
 }
 .card.border-secondary.mb-3 .mask { 
 	opacity: 0;

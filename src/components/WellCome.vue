@@ -9,13 +9,13 @@
   h1 {
     font-size: 60px;
     color: whitesmoke;
-    -webkit-text-stroke: 1px black;
-    text-shadow: gray 2px 2px 1px;
-
+    /* -webkit-text-stroke: 1px black; */
+    text-shadow: gray 5px 5px 5px;
+    padding-top: 180px;
   }
   .animate__animated.animate__bounceInRight {
     font-size: 20px;
-    padding-top: 30px;
+    margin-top: 30px;
     padding-bottom: 130px;
     color: black;
   }
