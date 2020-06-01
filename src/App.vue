@@ -6,7 +6,12 @@
       <about v-if="about"></about>
     </transition>
     <br>
-    <a class="titles" style="cursor: pointer; margin-bottom: 20px;" @click="tasks = !tasks">Direction/Task</a>
+    <a class="titles" style="cursor: pointer; margin-bottom: 20px;" @click="direction = !direction">Direction</a>
+    <transition name="fade">
+      <direction v-if="direction"></direction>
+    </transition>
+    <br>
+    <a class="titles" style="cursor: pointer; margin-bottom: 20px;" @click="tasks = !tasks">Task</a>
     <transition name="fade">
       <tasks v-if="tasks"></tasks>
     </transition>
@@ -15,11 +20,6 @@
     <transition name="fade">
       <production v-if="production"></production>
     </transition>
-    <br><br>
-    <a class="titles" style="cursor: pointer;" @click="skill = !skill">Skill</a>
-    <transition name="fade">
-      <skill v-if="skill"></skill>
-    </transition>
       <div >
           <div class="bubble"></div>
           <div class="bubble"></div>
@@ -27,32 +27,33 @@
           <div class="bubble"></div>
           <div class="bubble"></div>
       </div>
+    <div style="padding-top: 100px;" class="copy-light">©️SHOTA-NAKASHIMA 2020</div>
   </div>
 </template>
 
 <script>
 import wellcome from './components/WellCome.vue';
 import about from './components/About.vue';
-import skill from './components/Skill.vue';
 import production from './components/Production.vue';
 import tasks from './components/tasks.vue';
+import direction from './components/Direction.vue';
 
 export default {
   data() {
     return {
       about: false,
       production: false,
-      skill: false,
-      tasks: false
+      tasks: false,
+      direction: false
     }
   },
  
   components: {
    wellcome,
    about,
-   skill,
    production,
-   tasks
+   tasks,
+   direction
   }
 }
 </script>
@@ -64,9 +65,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: white;
-  
-  /* margin-top: 200px; */
-  padding-bottom: 130px;
+  padding-bottom: 20px;
 }
 
 .titles {
@@ -76,8 +75,7 @@ export default {
   position: relative;
   text-decoration: none;
   color: #ffffff;
-  //  -webkit-text-stroke: 1px black;
-    text-shadow: gray 3px 3px 3px;
+  text-shadow: gray 3px 3px 3px;
 }
 
 .titles::after {

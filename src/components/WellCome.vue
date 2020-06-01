@@ -11,7 +11,7 @@
     color: whitesmoke;
     /* -webkit-text-stroke: 1px black; */
     text-shadow: gray 5px 5px 5px;
-    padding-top: 180px;
+    padding-top: 130px;
   }
   .animate__animated.animate__bounceInRight {
     font-size: 20px;
