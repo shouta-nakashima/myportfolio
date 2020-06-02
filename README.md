@@ -1,24 +1,20 @@
 # myportfolio
 
-## Project setup
-```
-npm install
-```
+## はじめに
+VueJSを勉強するにあたり、今回自身のポートフォリオサイトを制作してみました。
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## About
+自身の自己紹介を記載しています。
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## Direction
+自身のスキルや、これまでの学習の過程を記載しています。
 
-### Lints and fixes files
-```
-npm run lint
-```
+## Task
+自身の今後の課題について記載しています。
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Production
+自身がTECHCAMPから今までに開発を行なったアプリケーションを記載しています。
+
+## 最後に
+技術的にまだまだですが、形にするという事が一番の成長につながると思うので、今後も開発を続けていきたいと思います。
+最後まで閲覧いただきありがとうございます。
