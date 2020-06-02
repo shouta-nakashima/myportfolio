@@ -75,7 +75,7 @@
                   <ul>
                     <li><p class="card-text">現在のサイトです。初めてVueJSでSPAを作成しました。自身のポートフォリオ サイトになります。</p></li>
                     <li><p class="card-text">2020/05/VueJS</p></li>
-                    <li><a href="ttps://github.com/shouta-nakashima/myportfolio"><img class="github" src="../assets/GitHub.jpeg"></a></li>
+                    <li><a href="https://github.com/shouta-nakashima/myportfolio"><img class="github" src="../assets/GitHub.jpeg"></a></li>
                   </ul>
                 </div>
             </div>
