@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class="animate__animated animate__bounceInLeft " >WellCome To MyPortfolio</h1>
+    <h1 class="animate__animated animate__bounceInLeft " >WelCome To MyPortfolio</h1>
     <p class="animate__animated animate__bounceInRight">Shota Nakashima</p>
   </div>
 </template>
